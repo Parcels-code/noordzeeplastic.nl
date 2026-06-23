@@ -1,0 +1,21 @@
+import { extendTheme } from '@chakra-ui/react'
+import { theme } from '@chakra-ui/theme'
+import '@fontsource-variable/inter'
+
+const fonts = {
+  body: "'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+  heading: "'Open Sans', 'Work Sans', system-ui, sans-serif",
+}
+
+export const customTheme = extendTheme(
+  {
+    colors: { ...theme.colors, brand: theme.colors.blue },
+    fonts: fonts,
+    styles: {
+      global: {
+        html: { scrollBehavior: 'smooth' },
+      },
+    },
+  },
+  theme,
+)
