@@ -1,6 +1,6 @@
-import { Box, Button, Container, Heading, Stack, Text } from '@chakra-ui/react'
+import { Box, Container, Heading, Stack, Text } from '@chakra-ui/react'
 
-import { Image, Link } from '@/components/mdx'
+import { Image } from '@/components/mdx'
 
 export const HeroBanner = () => {
   return (

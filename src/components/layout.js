@@ -1,4 +1,3 @@
-// import { Banner } from '@/components/banner'
 import { Footer } from '@/components/footer'
 import { Header } from '@/components/header'
 import { Link } from '@/components/mdx'
@@ -16,19 +15,11 @@ export const Layout = ({
   card,
   children,
   url = 'https://noordzeeplastic.nl',
-  enableBanner = false,
 }) => {
   // Track page views
   useEffect(() => {
     ReactGA.send({ hitType: 'pageview' })
   }, [])
-
-  const bannerTitle =
-    'Join the Parcels 10 year anniversary event 🎉 on 1-3 Oct 2025!'
-  const bannerDescription = ''
-  const bannerChildren = (
-    <Link href='https://oceanparcels.org/10year-event'>Learn more</Link>
-  )
 
   // Determine the base URL based on the environment
   const baseUrl =
@@ -88,11 +79,6 @@ export const Layout = ({
       >
         <Box>
           <Header />
-          {/* {enableBanner && (
-            <Banner title={bannerTitle} description={bannerDescription}>
-              {bannerChildren}
-            </Banner>
-          )} */}
           {children}
         </Box>
 

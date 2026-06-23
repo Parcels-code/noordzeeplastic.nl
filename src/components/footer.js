@@ -6,7 +6,6 @@ import {
   Stack,
   Text,
   VisuallyHidden,
-  VStack,
 } from '@chakra-ui/react'
 
 import { Image, Link } from '@/components/mdx'

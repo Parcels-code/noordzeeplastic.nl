@@ -2,7 +2,7 @@ import { DesktopNav } from '@/components/desktop-nav'
 import { Link } from '@/components/mdx'
 import { MobileNav } from '@/components/mobile-nav'
 import { menuItems } from '@/data/menu-items'
-import { CloseIcon, HamburgerIcon, MoonIcon, SunIcon } from '@chakra-ui/icons'
+import { CloseIcon, HamburgerIcon} from '@chakra-ui/icons'
 import {
   Box,
   Container,

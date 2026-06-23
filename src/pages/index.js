@@ -12,7 +12,6 @@ export default function IndexPage() {
       card={
         'https://github.com/Parcels-code/noordzeeplastic.nl/blob/main/public/drifter_logo.svg?raw=true'
       }
-      // enableBanner
     >
       <HeroBanner />
     </Layout>
