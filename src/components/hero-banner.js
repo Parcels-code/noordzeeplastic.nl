@@ -7,20 +7,28 @@ export const HeroBanner = () => {
     <Box id='header' as='section' bg='#FFFFFF'>
       <Container maxW='container.lg' pt={24} centerContent mb={0} pb={12}>
         <Box display='flex' flexDirection='column' alignItems='center' gap={{ base: 8, md: 10 }}>
-          <Box flex={1} display='flex' flexDirection='column' gap={{ base: 5, md: 10 }}>
+          <Box flex={1} display='flex' flexDirection='column' gap={{ base: 0, md: 0 }}>
             <Heading
               lineHeight={1.1}
               fontWeight={600}
               fontSize={{ base: '3xl', sm: '4xl', lg: '6xl' }}
+              pb={0}
             >
               <Text as={'span'} color={'#27187E'}>
                 Noordzee Plastic
               </Text>
+            </Heading>
+            <Heading
+              lineHeight={1.1}
+              fontWeight={400}
+              fontSize={{ base: '2xl', sm: '3xl', lg: '4xl' }}
+              pt={0}
+            >
               <Text as={'span'} color={'#27187E'}>
-                <br></br>Waar plastic afval en wetenschap samenkomen
+                Waar plastic afval en wetenschap samenkomen
               </Text>
             </Heading>
-            <Text fontSize={'lg'} mt={0}>
+            <Text fontSize={'lg'} mt={10}>
               Tijdens het <strong>Noordzee plastic</strong> experiment laten we bijna 500 drifters los in de Noordzee. Daarmee brengen we in kaart hoe stromingen, golven en wind plastic afval verspreiden. Doe mee en volg de drifters in real-time!
             </Text>
           </Box>
