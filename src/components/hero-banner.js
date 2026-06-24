@@ -5,7 +5,7 @@ import { Image } from '@/components/mdx'
 export const HeroBanner = () => {
   return (
     <Box id='header' as='section' bg='#FFFFFF'>
-      <Container maxW='container.lg' pt={24} centerContent mb={0} pb={12}>
+      <Container maxW='container.lg' pt={20} centerContent mb={0} pb={12}>
         <Box display='flex' flexDirection='column' alignItems='center' gap={{ base: 8, md: 10 }}>
           <Box flex={1} display='flex' flexDirection='column' gap={{ base: 0, md: 0 }}>
             <Heading
