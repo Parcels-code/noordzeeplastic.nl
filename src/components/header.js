@@ -27,13 +27,14 @@ export const Header = () => {
         top={'0'}
         w={'full'}
         minH={'60px'}
+        maxH={'60px'}
         boxShadow={'sm'}
         zIndex={'999'}
         justify={'center'}
         color='black'
         css={{
           backdropFilter: 'saturate(180%) blur(5px)',
-          backgroundColor: '#FFCD00',
+          backgroundColor: 'rgba(255, 255, 255, 0.8)',
         }}
       >
         <Container as={Flex} maxW={'container.lg'} align={'center'}>
@@ -71,7 +72,7 @@ export const Header = () => {
               spacing={{ base: 2, sm: 4 }}
             >
               <Image
-                w={48}
+                h={'48px'}
                 src={'/drifter_logo.svg'}
                 alt={'Drifter logo'}
               />

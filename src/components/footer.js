@@ -45,7 +45,7 @@ const ListHeader = ({ children }) => {
 
 export const Footer = () => {
   return (
-    <Box bg='#FFCD00' color='black' as='footer'>
+    <Box bg='gray.50' color='gray.700' as='footer'>
       <Container maxW='container.lg' my={8} centerContent>
         <SimpleGrid
           columns={{ base: 1, sm: 2, md: 3 }}
@@ -54,7 +54,7 @@ export const Footer = () => {
           <Stack spacing={6}>
             <Box>
               <Image
-                w={32}
+                h={'48px'}
                 src={'/drifter_logo.svg'}
                 alt={'drifter logo'}
               />
@@ -66,26 +66,9 @@ export const Footer = () => {
             <Text fontSize={'sm'}>Apache 2.0 Licensed.</Text>
           </Stack>
           <Stack align={'flex-start'}>
-            <ListHeader>Resources</ListHeader>
+            <ListHeader>Achtergrond</ListHeader>
 
-            {footerItems.resources.map((item) => {
-              return (
-                <Link
-                  key={item.label}
-                  href={item.href}
-                  fontSize={'sm'}
-                  color='black'
-                  textDecoration='none'
-                  _hover={{ color: 'black', textDecoration: 'none' }}
-                >
-                  {item.label}
-                </Link>
-              )
-            })}
-          </Stack>
-          <Stack align={'flex-start'}>
-            <ListHeader>Documentation</ListHeader>
-            {footerItems.documentation.map((item) => {
+            {footerItems.achtergrond.map((item) => {
               return (
                 <Link
                   key={item.label}
