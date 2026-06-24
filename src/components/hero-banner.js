@@ -14,7 +14,10 @@ export const HeroBanner = () => {
               fontSize={{ base: '3xl', sm: '4xl', lg: '6xl' }}
             >
               <Text as={'span'} color={'#27187E'}>
-                Noordzee Plastic: Waar plastic afval en wetenschap samenkomen
+                Noordzee Plastic
+              </Text>
+              <Text as={'span'} color={'#27187E'}>
+                <br></br>Waar plastic afval en wetenschap samenkomen
               </Text>
             </Heading>
             <Text fontSize={'lg'} mt={0}>
