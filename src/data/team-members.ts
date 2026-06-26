@@ -15,6 +15,12 @@ export const CurrentTeamMembers: CurrentTeamMember[] = [
     image: 'team_member_photos/NickHodgskin.jpg',
   },
   {
+    name: 'Rolf Hut',
+    position: 'Associate Professor',
+    description: 'Rolf supports the development of the custom drifters.',
+    image: 'team_member_photos/RolfHut.jpg',
+  },
+  {
     name: 'Jimena Medina Rubio',
     position: 'PhD candidate',
     description:
@@ -36,8 +42,15 @@ export const CurrentTeamMembers: CurrentTeamMember[] = [
     image: 'team_member_photos/ViktorvanBilsen.jpg',
   },
   {
-    name: 'Erik van Sebille',
+    name: 'Ton van den Bremer',
     position: 'Professor',
+    description:
+      "Ton supports the theory development of plastic transport.",
+    image: 'team_member_photos/TonvandenBremer.jpg',
+  },
+  {
+    name: 'Erik van Sebille',
+    position: 'Project lead and Professor',
     description:
       "Erik investigates how ocean currents move 'stuff' around, and leads the Parcels project.",
     image: 'team_member_photos/ErikvanSebille.jpg',
